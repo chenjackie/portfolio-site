@@ -106,7 +106,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .masthead-brand {
     float: left;
   }
@@ -115,11 +115,9 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
-
 .cover {
   padding: 0 20px;
   left: 10%;
@@ -130,8 +128,6 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
-
-
 /*
  * Footer
  */
@@ -141,7 +137,6 @@ body {
   color: rgba(255,255,255,.5);
   float: left;
 }
-
 
 /*
  * Affix and center
@@ -210,3 +205,4 @@ body {
     width: 700px;
   }
 }
+

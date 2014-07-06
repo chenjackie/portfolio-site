@@ -132,7 +132,19 @@ input, textarea{
   font-family: 'Gloria Hallelujah', cursive;
   /*line-height: 50%;
 }*/
+@media (min-width: 320px) and (max-width: 480px){
+  .message-box{
+  position: fixed;
+  left: 4%;
+}
+}
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .message-box{
+  position: fixed;
+  left: 20%;
+}
+}
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -142,7 +154,10 @@ input, textarea{
     float: right;
   }
 }
-
+.message-box{
+  position: fixed;
+  right: 4%;
+}
 
 /*
  * Cover
@@ -215,7 +230,7 @@ input, textarea{
   }
 .message-box{
   position: fixed;
-  right: 30%;
+  right: 25%;
 }
 
 .mastfoot {
@@ -244,4 +259,5 @@ input, textarea{
   .cover-container {
     width: 700px;
   }
+
 }
