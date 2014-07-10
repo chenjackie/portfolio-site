@@ -1,0 +1,87 @@
+/* custome css for bakery page */
+@import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+a{
+	text-decoration: none !important;
+}
+h3{
+	color:#A52174;
+}
+h4{
+	color: #5923AF;
+}
+h3, h4, h5{
+	font-family: 'Signika', sans-serif;
+}
+/* breadcrumb */
+.lead{
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #712698;
+	text-shadow:1px 1px #360B4B;
+}
+.subtitle{
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5em;
+	margin-top: 0px;
+	color: #8F5DA9;
+}
+.breadcrumb>li+li:before
+{
+	content:none;
+}
+.breadcrumb{
+	padding:8px 15px;margin-bottom:5px;list-style:none;background-color:#fff;border-radius:4px
+}
+.breadcrumb>li{
+	display:inline-block;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.2em;
+}
+.breadcrumb>li+li:before{
+	padding:0 5px;color:#ccc;content:"/\00a0"
+}
+.breadcrumb>.active{
+	color:#777;
+	}.
+/*icon*/
+.glyphicon-heart{
+	font: #FE3D7D;
+	text-shadow:1px 1px #4C3C65;
+	color: #A52174;
+}
+.glyphicon-star{
+	color:#AC70CB;
+}
+.pink{
+	color: #A523AF;
+}
+/*container*/
+.container{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+/*navbar*/
+.navbar-toggle{
+	background-color: rgba(0,0,0,0.5);
+}
+.glyphicon-th-list{
+	color: #fff;
+}
+/*label*/
+.label{
+	background-color: white;
+}
+.label:hover{
+	background-color:rgba(140,183,255,0.5);
+}
+.label-info{
+	color: #3F87FF;
+}
+.label-info:hover{
+	color:#20437F;
+}

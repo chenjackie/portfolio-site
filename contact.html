@@ -20,22 +20,28 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix"> 
+          <div class="masthead clearfix">
             <div class="inner">
-              <a href="index.html" class="masthead-brand"><img src="images/logo.png"></a>
-              <ul class="nav masthead-nav">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-th-list"></span>
+              </button>
+              <a href="index.html" class="masthead-brand active"><img src="images/logo.png"></a>
+              <div>
+              <ul class="nav masthead-nav collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <li><a href="about.html">About</a></li>
-                <li><a href="work.html">Works</a></li>
-                <li><a href=" http://be.net/jj0911jj/frame" target='_blank'>My Behance</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="work.html">Banners</a></li>
+                <li><a href="web-design.html" target='_blank'>Web Designs</a></li>
+                <li><a href="http://be.net/jj0911jj/frame" target='_blank'>My Behance</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>          
               </ul>
+              </div>
             </div>
-          <!-- </div> -->
+          </div>
 
-          <div class="message-box col-md-offset-9 col-md-3">
-            <!-- <h1 class="first-name">Jackie</h1><h1 class="last-name">Chen</h1><br> -->
-            <h4>If you would like to contact me, please feel free to email to<a href="chenjackie74@gmail.com"> chenjackie74@gmail.com</a> or send a message using the form below.</h4></br>
-            <h4>You can also find me on <a href="www.facebook.com/p2jdu0911">Facebook</a> and <a href="https://twitter.com/chenlinen">Twitter</a> to stay in touch.</h4></br>
+          <div class="message-box col-md-8-push col-md-4">
+            <h4>If you would like to contact me, please feel free to email to<a href="chenjackie74@gmail.com"> chenjackie74@gmail.com</a> or send a message using the form below.</h4>
+            <h4>You also can find me on <a href="www.facebook.com/p2jdu0911">Facebook</a> and <a href="https://twitter.com/chenlinen">Twitter</a> to stay in touch.</h4></br>
 
           <form action="login.php" method="post">   
             <h4>From:<br>
@@ -68,7 +74,7 @@
             <a class="gplus" href='https://plus.google.com/u/0/117151884011320615832/posts/p/pub' target='_blank'>Google Plus</a>
           </div>
 
-          <div class="mastfoot">
+          <div class="mastfoot hidden-xs">
             <div class="inner">
               <p>&copy; 2014 Designed by Jackie Chen</p>
             </div>
@@ -80,6 +86,8 @@
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
