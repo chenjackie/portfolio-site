@@ -5,10 +5,15 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 /* Links */
-a,
+a{color:#fff;}
 a:focus,
 a:hover {
-  color: #5D7CFF;
+  color: #428bca;
+  text-decoration: none;
+}
+
+h4>a{
+  color: #428bca;
 }
 
 /* Custom default button */
@@ -185,7 +190,12 @@ input, textarea{
   color: rgba(255,255,255,.5);
   left: 42%;
 }
-
+.dropdown-menu{
+  background-color: #000;
+}
+.nav .open>a:focus, .nav .open>a{
+  background-color: #000;
+}
 
 /*
  * Affix and center

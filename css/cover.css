@@ -3,10 +3,11 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 /* Links */
-a,
+a{color:#fff;}
 a:focus,
 a:hover {
-  color: #fff;
+  color: #428bca;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -18,7 +19,12 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
+.dropdown-menu{
+  background-color:#000;
+}
+.nav .open>a:focus, .nav .open>a, .nav .open>a:hover{
+  background-color:#000;
+}
 
 /*
  * Base structure

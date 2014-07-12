@@ -3,10 +3,11 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 /* Links */
-a,
+a{color:#fff;}
 a:focus,
 a:hover {
-  color: #fff;
+  color: #428bca;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -177,22 +178,29 @@ body {
   top: 40%;
   left: 50%;
   z-index: 2;
-  -webkit-animation:mike-move 15s 1s ease-out backwards, mike-float 2s infinite;
-  -webkit-animation-iteration-count:1000;
+  -webkit-animation: mike-float 8s 1s ease-out;
+  -webkit-animation-iteration-count:2000;
 }
 
-@-webkit-keyframes mike-move{
-  10% {right:30%;}  
-  20% {right:50%;}
-  40% {right:70%;}
-  80% {right:50%;}
-  100% {right:30%;}
+.mike2{
+  position: absolute;
+  top: 88%;
+  left: 40%;
+  z-index: 2;
+  -webkit-animation: mike-float 8s 1s ease-out;
+  -webkit-animation-iteration-count:2000;
 }
 
 @-webkit-keyframes mike-float{
   50% { -webkit-transform:rotateZ(5deg) translateY(-5px);}
 }
-
+/*dropdown menu*/
+.dropdown-menu{
+  background-color: #000;
+}
+.nav .open>a:focus, .nav .open>a{
+  background-color: #000;
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
