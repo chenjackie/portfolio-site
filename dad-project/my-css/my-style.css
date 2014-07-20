@@ -1,0 +1,45 @@
+html {
+	width: auto;
+	height: auto;
+}
+body{
+ 	background:url('../img/Beautiful-Taipei-101-Night-Light-Skyscraper.jpg') no-repeat;
+ 	background-size: 1900px;
+ 	height: auto;
+}
+p{
+	color:#D9DDF2 !important;
+}
+iframe{
+	resize:both;
+	border-radius: 10px;
+}
+.logo{
+	font-size: 1.5em !important;
+	color: #CED1E5 !important;
+}
+.jumbotron{
+	margin-top: 115px;
+	max-height: 1175px;
+	overflow: scroll !important;
+	background-color: transparent !important;	
+}
+.jumbotron>h1{
+	text-shadow:1px 1px 1px #CED1E5;
+}
+.page-header>h1{
+	color: #8C99E9 !important;
+	text-shadow:2px 2px 2px #D5D8ED !important;
+}
+.panel-body>p{
+	color: #3F456A !important;
+}
+.panel-heading{
+	color: #441A83;
+	text-shadow:;
+}
+
+.col-xs-5>p{
+	line-height: 2.2;
+}
+

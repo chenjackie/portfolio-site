@@ -1,0 +1,96 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M832 128h-640c-105.6 0-192 86.4-192 192v384c0 105.6 86.4 192 192 192h640c105.6 0 192-86.4 192-192v-384c0-105.6-86.4-192-192-192zM384 768v-512l320 256-320 256z"
+				],
+				"tags": [
+					"youtube",
+					"social"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 371,
+				"order": 1,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "youtube",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 371
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 1024h512v-1024h-512v1024zM320 128h128v128h-128v-128zM320 384h128v128h-128v-128zM320 640h128v128h-128v-128zM64 128h128v128h-128v-128zM64 384h128v128h-128v-128zM64 640h128v128h-128v-128zM576 320h448v64h-448zM576 1024h128v-256h192v256h128v-576h-448z"
+				],
+				"tags": [
+					"office",
+					"home",
+					"house",
+					"work",
+					"building"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 3,
+				"order": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "office",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 3
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 33,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": true,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"quickUsageToken": {
+			"UntitledProject1": "ZjQxYWZiMTQ0MDc5YTZkNTI5ZjE2OGJiMzQxOGZkMjcjMiMxMzkzMjc3OTM5IyMj"
+		}
+	}
+}
