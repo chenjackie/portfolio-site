@@ -148,9 +148,9 @@
          
 <!--Social Bar -->
           <div id="social">
-            <a class="fbook" href='https://www.facebook.com/P2jdu0911' target='_blank'>Facebook</a>
-            <a class="twitt" href='https://twitter.com/chenlinen' target='_blank'>Twitter</a>
-            <a class="gplus" href='https://plus.google.com/u/0/117151884011320615832/posts/p/pub' target='_blank'>Google Plus</a>
+            <a class="fbook" data-toggle="tooltip" data-placement="left" title="Connect me!" href='https://www.facebook.com/P2jdu0911' target='_blank'>Facebook</a>
+            <a class="twitt" data-toggle="tooltip" data-placement="left" title="Connect me!" href='https://twitter.com/chenlinen' target='_blank'>Twitter</a>
+            <a class="gplus" data-toggle="tooltip" data-placement="left" title="Connect me!" href='https://plus.google.com/u/0/117151884011320615832/posts/p/pub' target='_blank'>Google Plus</a>
           </div>
 
           
@@ -543,5 +543,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+       $('a.fbook').tooltip()
+       $('a.twitt').tooltip()
+       $('a.gplus').tooltip()
+    </script>
   </body>
 </html>
