@@ -65,7 +65,9 @@ body {
   padding: 30px;
 }
 
-
+.navbar-collapse.in{
+  overflow: visible;
+}
 /*
  * Header
  */
@@ -243,4 +245,9 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+@media (min-width: 1280px) and (max-width: 1679px){
+  .container-margin-top{
+  margin-top: 100px;
+}
 }

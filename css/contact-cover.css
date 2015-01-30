@@ -37,7 +37,7 @@ body {
   /*background-color: #333;*/
   background-image: url(../images/contact-cover.png);
   background-repeat: no-repeat;
-  background-position: 25% 50%;
+  background-position: 25% 60%;
   background-color: rgba(0,0,0,1);
 }
 body {
@@ -79,7 +79,9 @@ input, textarea{
   padding: 30px;
   font-family: 'Gloria Hallelujah', cursive;
 }
-
+.navbar-collapse.in{
+  overflow: visible;
+}
 
 /*
  * Header
@@ -116,7 +118,11 @@ input, textarea{
   color: #fff;
   border-bottom-color: #fff;
 }
-
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  float:left;
+}
 
 /*@media (min-width: 320px) and (max-width: 480px){
   .message-box{
@@ -169,7 +175,7 @@ input, textarea{
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
-  left: 42%;
+  float:left;
 }
 .dropdown-menu{
   background-color: #000;
@@ -211,7 +217,16 @@ input, textarea{
   .gplus { background-position: 0 -80px;}
   .gplus:hover { background-position: -40px -80px;}
   .gplus:active { background-position: -80px -80px;}
-
+@media(max-width: 400px){
+  body{
+    height: 100%;
+  /*background-color: #333;*/
+  background-image: url(../images/contact-cover.png);
+  background-repeat: no-repeat;
+  background-position: 50% -100%;
+  background-color: rgba(0,0,0,1);
+  }
+}
 @media (min-width: 768px) {
   /* Pull out the header and footer */
 
