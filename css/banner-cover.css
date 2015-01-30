@@ -69,6 +69,9 @@ body {
   padding: 30px;
   overflow: scroll;
 }
+.navbar-collapse.in{
+  overflow: visible;
+}
 .lead{
   color: #E5E5E5;
 }
