@@ -6,6 +6,7 @@ header{
 iframe{
 	margin-top: 50px;
 }
+
 #black{
 	color: #000;
 	text-shadow:2px 2px #fff;
@@ -72,4 +73,9 @@ iframe{
 }
 .glyphicon-gift, .glyphicon-tree-deciduous, .glyphicon-shopping-cart, .glyphicon-qrcode{
 	font-size: 2em;
+}
+@media (max-width: 567px){
+	iframe{
+		width: 450px;
+	}
 }
